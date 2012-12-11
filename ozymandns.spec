@@ -1,6 +1,6 @@
 %define name		ozymandns
 %define version		0.1
-%define release		%mkrel 4
+%define release		%mkrel 3
 
 Name:		%{name}
 Version:	%{version}
@@ -37,3 +37,21 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %{_bindir}/*
 
+
+
+%changelog
+* Fri Sep 04 2009 Thierry Vignaud <tvignaud@mandriva.com> 0.1-3mdv2010.0
++ Revision: 430226
+- rebuild
+
+* Fri Aug 08 2008 Thierry Vignaud <tvignaud@mandriva.com> 0.1-2mdv2009.0
++ Revision: 268354
+- rebuild early 2009.0 package (before pixel changes)
+
+* Sat May 31 2008 Guillaume Rousse <guillomovitch@mandriva.org> 0.1-1mdv2009.0
++ Revision: 213665
+- import ozymandns
+
+
+* Sat May 31 2008 Guillaume Rousse <guillomovitch@mandriva.org> 0.1-1mdv2009.0
+- first mdv release
