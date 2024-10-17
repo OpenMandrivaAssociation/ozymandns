@@ -8,7 +8,7 @@ Release:	%{release}
 Summary:	DNS Tunnel
 License:	Distributable
 Group:		Networking/Other
-URL:		http://www.doxpara.com/
+URL:		https://www.doxpara.com/
 Source:     http://www.doxpara.com/%{name}_src_%{version}.tgz
 BuildRoot:  %{_tmppath}/%{name}-%{version}
 
